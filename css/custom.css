@@ -1,0 +1,210 @@
+/* CUSTOM STYLES */
+
+.carousel-caption {
+  padding-left: 15px;
+}
+
+.img-about {
+  max-height: 360px;
+}
+
+/*
+
+=====================
+INTRO
+=====================
+
+*/
+
+#intro {
+  background: #333;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+#intro .overlay {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #2e723e;
+  opacity: 0.70;
+}
+
+/*
+
+=====================
+SKILLS
+=====================
+
+*/
+
+.box-skills i {
+  font-size: 1.5em
+}
+
+.progress{
+  border-radius: 4px;
+  height: 23px;
+}
+
+.progress-bar-proficient {
+  background: #4BBA65
+}
+
+.progress-bar-strong{
+  background: #3A8F4D
+}
+
+.progress-bar-excels{
+  background: #2e723e
+}
+
+
+.row-skills {
+  padding: 15px 0;
+}
+.box-skills {
+  /*margin-bottom: 20px;*/
+  padding: 40px 12px 12px;
+  border-bottom: 1px solid #d4d4d4;
+  background: #fff;
+  max-height: 177px;
+}
+.box-skills .heading {
+  color: #000;
+}
+.box-skills .icon {
+  text-align: center;
+  font-size: 25px;
+  color: #000;
+  max-height: 44px;
+}
+.box-skills p {
+  color: #424242;
+  text-align: center;
+  font-size: 13px;
+  min-height: 30px;
+}
+.box-skills img {
+  vertical-align: top;
+}
+
+.icon-tech {
+  height: 37px;
+}
+
+.row-skills .col-sm-3 {
+  max-height: 177px;
+}
+
+/*
+
+=====================
+TESTIMONIAL
+=====================
+
+*/
+
+
+.row-testimonial {
+  padding: 0 40px;
+}
+
+.testimonial {
+  color: #fff;
+  font-size: 1.8em;
+}
+
+/*
+
+=====================
+TESTIMONIAL
+=====================
+
+*/
+
+.reference-item .reference a .overlay {
+  padding: 0px 20px 5px 20px;
+}
+
+.reference-item .reference a .overlay h3 {
+  font-size: 1.7em;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.reference-item .reference a .overlay hr {
+  margin: 12px 0;
+}
+
+.reference-item .reference a .overlay hr {
+  margin: 12px 0;
+}
+
+.reference-item .reference a .overlay .project-tech {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.reference-item .reference a:hover .overlay,
+.reference-item .reference a:focus .overlay {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+/*
+
+=====================
+CONTACT
+=====================
+
+*/
+
+.contact-box {
+  align-items: center;
+  display: inline-block;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  width: 240px;
+}
+
+.contact-box a {
+  border-radius: 5px;
+  font-size: 2em;
+  height: 115px;
+  width: 100%;
+}
+
+.contact-box i {
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+/*
+
+=====================
+FOOTER
+=====================
+
+*/
+
+#footer p.social {
+  text-align: center;
+}
+
+#footer p.social a.github {
+  background-color: #aa3663;
+  font-size: 40px;
+}
+#footer p.social a.linkedin {
+  background-color: #0077b5;
+}
+
+.social i .devicon-github-plain {
+  font-size: 50px;
+}
